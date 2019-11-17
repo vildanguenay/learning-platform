@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  margin-top: 3rem;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.challengeBox {
+  justify-content: center;
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 2rem;
+}
+.answerBox {
+  border: 2px solid black;
+  width: 40%;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.questionBox {
+  border: 2px solid black;
+  width: 35%;
+}
+.correct {
+  background-color: green;
+}
+.incorrect {
+  background-color: red;
+}
